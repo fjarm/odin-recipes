@@ -3,10 +3,17 @@
     background-color: bisque;
 }
 
-.homepage-title {
+h1.homepage {
     background-color: rgb(114, 29, 29);
     color: bisque;
     font-size: 64px;
+    text-align: center;
+    font-family: 'Tillana', cursive;
+}
+
+h1.recipes {
+    color: rgb(114, 29, 29);
+    font-size: 48px;
     text-align: center;
     font-family: 'Tillana', cursive;
 }
@@ -25,4 +32,34 @@ ul {
     display: inline-block;
     font-size: 20px;
     text-align: left;
+}
+
+ul.recipes {
+    inline-size: 700px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: left;
+}
+
+ol.recipes {
+    inline-size: 700px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: left;
+}
+
+img.recipes {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: auto;
+}
+
+p {
+    inline-size: 900px;
+    font-size: 24px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
